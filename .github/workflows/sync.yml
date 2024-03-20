@@ -32,8 +32,8 @@ jobs:
         pip install dist/*.whl
     - name: Run main app
       env:
-        ARCHIVE_USER_EMAIL: ${{ secrets.'alexzebley98@gmail.com' }}
-        ARCHIVE_PASSWORD: ${{ secrets.'monkey12' }}
+        ARCHIVE_USER_EMAIL: ${{ secrets.alexzebley98@gmail.com }}
+        ARCHIVE_PASSWORD: ${{ secrets.monkey12 }}
         CHANNELS: ${{ secrets.'https://youtube.com/@mickeyfan5534?si=UGLxAzmC-bg7qngK' }}
         MONGODB_CONNECTION_STRING: ${{ secrets.MONGODB_CONNECTION_STRING }}
         JSONBIN_KEY: ${{ secrets.JSONBIN_KEY }}
