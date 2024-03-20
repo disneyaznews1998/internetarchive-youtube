@@ -34,7 +34,7 @@ jobs:
       env:
         ARCHIVE_USER_EMAIL: ${{ secrets.alexzebley0698 }}
         ARCHIVE_PASSWORD: ${{ secrets.monkey12 }}
-        CHANNELS: ${{ secrets.'https://youtube.com/@mickeyfan5534?si=UGLxAzmC-bg7qngK' }}
+        CHANNELS: ${{ secrets."https://youtube.com/@mickeyfan5534?si=qcili7R8DEm6jgBd" }}
         MONGODB_CONNECTION_STRING: ${{ secrets.MONGODB_CONNECTION_STRING }}
         JSONBIN_KEY: ${{ secrets.JSONBIN_KEY }}
         CLI_OPTIONS: ${{ secrets.CLI_OPTIONS }}
